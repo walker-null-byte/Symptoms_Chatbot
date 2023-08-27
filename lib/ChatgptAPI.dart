@@ -8,7 +8,7 @@ Future<List<List>> sendMessage(String message) async {
   var url = Uri.parse('https://symptom-checker4.p.rapidapi.com/analyze');
   var headers = {
     "content-type": "application/json",
-    "X-RapidAPI-Key": "aebc3c754dmsh2bb61356b1c757ap159c2ejsn3b5ba8b8325e",
+    "X-RapidAPI-Key": "ADD-YOUR-EY",
     "X-RapidAPI-Host": "symptom-checker4.p.rapidapi.com"
   };
 
